@@ -49,7 +49,7 @@ class CBox_Theme_Specs {
 	 * Static bootstrapping init method.
 	 */
 	public static function init() {
-		self::$cbox_theme['download_url'] = 'http://github.com/cuny-academic-commons/cbox-theme/archive/1.0.16.zip';
+		self::$cbox_theme['download_url'] = CBOX_PLUGIN_DIR . 'includes/zip/cbox-theme-1.0.16.zip';
 		return new self();
 	}
 
